@@ -15,7 +15,7 @@ export const AddressJob:React.FC<IProps> = ({ location, name, address, phone, em
       <h3 className="xl:hidden pb-2.5 mb-3.5 text-large font-bold text-accentColor border-b border-gray-200">
         Contacts
       </h3>
-      <ul className="m-auto not-italic text-base font-normal rounded-t-lg text-opacityWhite bg-accentColor w-372 xl:w-402 pt-8 pb-4 px-16 xl:py-8">
+      <ul className="m-auto not-italic text-base font-normal rounded-t-lg text-opacityWhite bg-accentColor max-w-372 xl:w-402 pt-8 pb-4 px-16 xl:py-8">
         <li className="xl:text-xl font-bold  mb-4 xl:mb-2">
           Department name.
           <br />

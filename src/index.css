@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+   
+    line-height: 25px;
+    scroll-behavior: smooth;
+  }
+} 
+
+body {
+  background-color: #E6E9F2;
+} 
+
+.icon {
+  @media (min-width: 1280px) { 
+    height: 19px;
+    width: 18px;
+  }
+}
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}

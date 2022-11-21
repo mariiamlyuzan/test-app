@@ -1,0 +1,68 @@
+.leaflet-container {
+  width: 372px;
+  height: 182px;
+  margin: auto;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-family:  Proxima Nova, system-ui, sans-serif;
+} 
+
+:root {
+  --map-tiles-filter: brightness(0.7) invert(1) contrast(4) hue-rotate(940deg) saturate(0.3) brightness(0.9);
+}
+
+.map-tiles {
+      filter:var(--map-tiles-filter, none);
+}
+
+@media screen and (min-width: 1280px) {
+.leaflet-container {    
+  width: 402px; 
+  }
+}
+
+.pagination {
+  font-size: 16px;
+  font-weight: 700; 
+}
+  
+@media screen and (min-width: 1280px) {
+  .pagination {    
+    font-size: 21px;
+      }
+  }
+
+.pagination > li:last-child {
+  padding-right: 62px;
+  padding-left: 62px;
+  border: none;
+  color: rgba(56, 65, 93, 0.6);
+ }  
+
+ 
+.pagination > li:first-child {
+  padding-right: 62px;
+  padding-left: 62px;
+  border: none;
+  color: rgba(56, 65, 93, 0.6);
+  
+ }   
+
+.pagination > li:nth-child(odd) {
+  border:none;
+  color: rgba(56, 65, 93, 0.6);
+}
+
+.pagination > li:nth-child(even) {
+  border:none;
+  color: rgba(56, 65, 93, 0.6);
+}  
+
+.pagination > li{
+  color: rgba(56, 65, 93, 0.6);
+  border:none;
+}
+.pagination .active {
+  border-bottom: 2px solid #5876C5;
+
+} 

@@ -66,7 +66,7 @@ export const Jobs:React.FC = () => {
                   className="flex justify-between mb-2 last:mb-0 px-4 pt-3 pb-7 bg-bgBlue xl:py-6 xl:bg-white rounded-lg drop-shadow-lg"
                   key={id}
                 >
-                  <div className="overflow-hidden mt-8 md:mt-6 xl:mt-0 w-16 md:mr-6 h-16 md:w-20 md:h-20 rounded-full">
+                  <div className="overflow-hidden mt-8 md:mt-6 xl:mt-0 w-16 mr-1 md:mr-6 h-16 md:w-20 md:h-20 rounded-full">
                     <img
                       alt="Job"
                       src={pictures.reduce((acc,el) => {
